@@ -1,0 +1,37 @@
+.hero{
+    height: 80vh;
+}
+
+.card-img{
+    height: 15rem;
+}
+
+.icons{
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8rem;
+   
+    
+}
+.icons div{
+    margin-bottom: 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icons i {
+    font-size: 5rem;
+}
+.fa-figma{
+    background: linear-gradient(180deg, #F51212 0%, rgba(199, 26, 171, 0.72) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}

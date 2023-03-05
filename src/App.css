@@ -2,8 +2,11 @@
     height: 80vh;
 }
 
-.card-img{
+.card-height{
     height: 15rem;
+}
+.card-body{
+    height: 10rem;
 }
 
 .icons{

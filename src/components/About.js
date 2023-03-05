@@ -13,7 +13,8 @@ export const About = () => {
         </div>
         <h6 className="mt-4">
           {" "}
-          I am a <span className="fw-bold">
+          I am a{" "}
+          <span className="fw-bold text-info">
             {" "}
             full stack MERN developer{" "}
           </span>{" "}
@@ -27,8 +28,9 @@ export const About = () => {
         <div> </div>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={code1} className="card-img" />
-            <Card.Body>
+            <Card.Img variant="top" src={code1} className="card-height" />
+
+            <Card.Body className="card-body">
               <Card.Text>
                 I love coding things and enjoy bringing ideas to life.
                 Personally, I use JavaScript and its framework to create
@@ -40,8 +42,8 @@ export const About = () => {
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={coffee} className="card-img" />
-            <Card.Body>
+            <Card.Img variant="top" src={coffee} className="card-height" />
+            <Card.Body className="card-body">
               <Card.Text>
                 If you have creative thoughts and want to collaborate with
                 someone, I'm always up for a chat.
@@ -52,8 +54,8 @@ export const About = () => {
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={hobbies} className="card-img" />
-            <Card.Body>
+            <Card.Img variant="top" src={hobbies} className="card-height" />
+            <Card.Body className="card-body">
               <Card.Text>
                 Besides coding, I enjoy my life travelling, playing various
                 sports and listening music and many more.

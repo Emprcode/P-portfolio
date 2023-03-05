@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <Container className="mt-5">
       <div className="text-center mb-3">
-        <h2> How do I develop beautiful web apps? </h2>
+        <h3 className="fw-bold"> How do I develop beautiful web apps? </h3>
         <p className="mt-4">
           Well, I am proud to have few friends which are .....
         </p>

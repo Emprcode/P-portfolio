@@ -1,8 +1,9 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import code1 from "../assets/code1.png";
 import coffee from "../assets/coffee.png";
 import hobbies from "../assets/hobbies.png";
+import resume from "../assets/Resume.pdf";
 
 export const About = () => {
   return (
@@ -22,6 +23,16 @@ export const About = () => {
           developing websites and applications and love to work on various
           projects.
         </h6>
+        <div className="p-3">
+          <a href={resume} download={true}>
+            <Button
+              variant="none"
+              href="#contact"
+              className="btn btn-outline-success rounded fw-bold">
+              Download Resume <i className="fa-solid fa-download"></i>
+            </Button>
+          </a>
+        </div>
       </Row>
 
       <Row className=" about d-flex flex-wrap ">

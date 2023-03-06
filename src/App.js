@@ -8,7 +8,7 @@ import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Container>
@@ -22,6 +22,6 @@ function App() {
       </Container>
     </div>
   );
-}
+};
 
 export default App;

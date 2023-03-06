@@ -13,7 +13,7 @@ export const Contact = () => {
           partnership opportunities.
         </h6>
       </Row>
-      <div className="text-center">
+      <div className="text-center mb-5">
         {" "}
         <a href="mailto:your@email.com" target="_blank" rel="noreferrer">
           <Button
@@ -25,6 +25,7 @@ export const Contact = () => {
           </Button>
         </a>
       </div>
+      <hr />
     </Container>
   );
 };

@@ -2,14 +2,26 @@ import React from 'react'
 import "animate.css";
 import { Row, Tab } from 'react-bootstrap';
 import { ProjectCard } from '../ProjectCard';
-import avatar from "../../assets/avatar.png";
+import portfolio from "../../assets/portfolio.png";
+import calc from "../../assets/calc.png";
+import contact from "../../assets/contact-list.png";
 
 export const Websites = () => {
     const projects = [
         {
-          title: "Library System Management",
+          title: "Portfolio",
           description: "Develop and Deployment",
-          imgUrl: avatar,
+          imgUrl: portfolio,
+        },
+        {
+          title: "Contact List App",
+          description: "Design & Development",
+          imgUrl: contact,
+        },
+        {
+          title: "The prank calculator",
+          description: "Design & Development",
+          imgUrl: calc,
         },
     
   

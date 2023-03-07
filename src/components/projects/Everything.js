@@ -9,13 +9,19 @@ import expenses from "../../assets/expenses.png";
 import movielist from "../../assets/movielist.png";
 import notodolist from "../../assets/notodolist.png";
 import calc from "../../assets/calc.png";
+import portfolio from "../../assets/portfolio.png";
 
 export const Everything = () => {
     const projects = [
         {
           title: "E-Commerce project",
-          description: "Develop and Deployment",
+          description: "In development",
           imgUrl: ecom,
+        },
+        {
+          title: "Portfolio",
+          description: "Develop and Deployment",
+          imgUrl: portfolio,
         },
     
         {

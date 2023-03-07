@@ -15,7 +15,7 @@ export const About = () => {
         <h6 className="mt-4">
           {" "}
           I am a{" "}
-          <span className="fw-bold text-info">
+          <span className="fw-bold text-primary">
             {" "}
             full stack MERN developer{" "}
           </span>{" "}

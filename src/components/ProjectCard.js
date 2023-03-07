@@ -8,6 +8,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <div className="proj-txtx text-light">
           <h4>{title}</h4>
           <span>{description}</span>
+
           <Row className="mt-5 ">
             <Col>
               <Button variant="none">
@@ -18,7 +19,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
             <Col>
               <Button variant="none">
                 {" "}
-                <i className="fa-solid fa-diamond-turn-right h1"></i>
+                <i className="fa-solid fa-right-from-bracket h1"></i>
               </Button>
             </Col>
           </Row>

@@ -2,30 +2,51 @@ import React from 'react'
 import "animate.css";
 import { Row, Tab } from 'react-bootstrap';
 import { ProjectCard } from '../ProjectCard';
-import avatar from "../../assets/avatar.png";
+import ecom from "../../assets/e-com.png";
+import contact from "../../assets/contact-list.png";
+import library from "../../assets/library.png";
+import expenses from "../../assets/expenses.png";
+import movielist from "../../assets/movielist.png";
+import notodolist from "../../assets/notodolist.png";
+import calc from "../../assets/calc.png";
 
 export const Everything = () => {
     const projects = [
         {
-          title: "Library System Management",
+          title: "E-Commerce project",
           description: "Develop and Deployment",
-          imgUrl: avatar,
+          imgUrl: ecom,
         },
     
         {
-          title: "Business Startup",
+          title: "Library Management System",
           description: "Design & Development",
-          imgUrl: avatar,
+          imgUrl: library,
         },
         {
-          title: "Business Startup",
+          title: "Expenses Tracker App",
           description: "Design & Development",
-          imgUrl: avatar,
+          imgUrl: expenses,
         },
         {
-          title: "Business Startup",
+          title: "Not-To-Do List App",
           description: "Design & Development",
-          imgUrl: avatar,
+          imgUrl: notodolist,
+        },
+        {
+          title: "Movie List App",
+          description: "Design & Development",
+          imgUrl: movielist,
+        },
+        {
+          title: "Contact List App",
+          description: "Design & Development",
+          imgUrl: contact,
+        },
+        {
+          title: "The prank calculator",
+          description: "Design & Development",
+          imgUrl: calc,
         },
     ]
   return (

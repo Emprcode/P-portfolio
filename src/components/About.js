@@ -42,7 +42,7 @@ export const About = () => {
             <Card.Img variant="top" src={code1} className="card-height" />
 
             <Card.Body className="card-body">
-              <Card.Text>
+              <Card.Text className="h6">
                 I love coding things and enjoy bringing ideas to life.
                 Personally, I use JavaScript and its framework to create
                 beautiful web applications from the scratch.
@@ -55,7 +55,7 @@ export const About = () => {
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={coffee} className="card-height" />
             <Card.Body className="card-body">
-              <Card.Text>
+              <Card.Text className="h6">
                 If you have creative thoughts and want to collaborate with
                 someone, I'm always up for a chat.
               </Card.Text>
@@ -67,7 +67,7 @@ export const About = () => {
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={hobbies} className="card-height" />
             <Card.Body className="card-body">
-              <Card.Text>
+              <Card.Text className="h6">
                 Besides coding, I enjoy my life travelling, playing various
                 sports and listening music and many more.
               </Card.Text>

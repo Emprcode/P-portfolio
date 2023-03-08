@@ -1,6 +1,6 @@
 import { Button, Col, Row } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, github, live }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
@@ -13,13 +13,17 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
             <Col>
               <Button variant="none">
                 {" "}
-                <i className="fa-brands fa-github h1"></i>
+                <a href={github} target="_blank" rel="noreferrer">
+                  <i className="fa-brands fa-github text-dark h1"> </i>
+                </a>
               </Button>
             </Col>
             <Col>
               <Button variant="none">
                 {" "}
-                <i className="fa-solid fa-right-from-bracket h1"></i>
+                <a href={live} target="_blank" rel="noreferrer">
+                  <i className="fa-solid fa-right-from-bracket text-dark h1"></i>
+                </a>
               </Button>
             </Col>
           </Row>

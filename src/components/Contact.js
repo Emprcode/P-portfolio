@@ -18,7 +18,7 @@ export const Contact = () => {
         <a href="mailto:your@email.com" target="_blank" rel="noreferrer">
           <Button
             variant="none"
-            id="contact"
+            
             className="btn btn-outline-success rounded fw-bold">
             {" "}
             Email Me

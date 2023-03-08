@@ -5,39 +5,44 @@ import { ProjectCard } from '../ProjectCard';
 import ecom from "../../assets/e-com.png";
 import library from "../../assets/library.png";
 import expenses from "../../assets/expenses.png";
-import movielist from "../../assets/movielist.png";
 import notodolist from "../../assets/notodolist.png";
 
 export const FullStacks = () => {
   const projects = [
     {
       title: "E-Commerce project",
-      description: "Develop and Deployment",
+      description: "In development",
       imgUrl: ecom,
+      github: "https://github.com/Emprcode/E-commerce_api_admin",
+      live: "",
     },
+  
 
     {
       title: "Library Management System",
       description: "Design & Development",
       imgUrl: library,
+      github: "https://github.com/Emprcode/client-Library-management",
+      live: "",
     },
     {
       title: "Expenses Tracker App",
       description: "Design & Development",
       imgUrl: expenses,
+      github: "https://github.com/Emprcode/Self-time-management",
+      live: "",
     },
     {
       title: "Not-To-Do List App",
       description: "Design & Development",
       imgUrl: notodolist,
+      github: " https://github.com/Emprcode/node-API-ntdl",
+      live: "",
     },
-    {
-      title: "Movie List App",
-      description: "Design & Development",
-      imgUrl: movielist,
-    },
+
   
-]
+  
+  ];
   return (
     <Tab.Pane eventKey="second">
     <Row className="">

@@ -14,15 +14,16 @@ export const ProjectCard = ({ title, description, imgUrl, github, live }) => {
               <Button variant="none">
                 {" "}
                 <a href={github} target="_blank" rel="noreferrer">
-                  <i className="fa-brands fa-github text-dark h1"> </i>
+                  <i className="fa-brands fa-github text-info h1"> </i>
                 </a>
               </Button>
             </Col>
             <Col>
               <Button variant="none">
-                {" "}
                 <a href={live} target="_blank" rel="noreferrer">
-                  <i className="fa-solid fa-right-from-bracket text-dark h1"></i>
+                  <div className="h1 ">
+                    <i className="fa-solid fa-right-from-bracket text-info "></i>
+                  </div>
                 </a>
               </Button>
             </Col>

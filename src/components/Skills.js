@@ -10,8 +10,8 @@ export const Skills = () => {
           Well, I am proud to have few friends which are .....
         </p>
       </div>
-      <div className="icons p-5 mt-5 ">
-        <div>
+      <div className="icons p-5 mt-5  ">
+        <div className="">
           <i className="fa-brands fa-react text-primary"></i>REACT
         </div>
         <div>

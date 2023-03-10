@@ -114,9 +114,11 @@ text-fill-color: transparent;
   }
   .proj-imgbx {
     position: relative;
+   
+   
     border-radius: 30px;
     overflow: hidden;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
   }
   .proj-imgbx::before {
     content: "";
@@ -180,4 +182,33 @@ text-fill-color: transparent;
 
 
     /* color: #5BE9B9; */
+  }
+
+  .marquee {
+    height: 25px;
+    width: 420px;
+  
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee div {
+    display: block;
+    width: 200%;
+    height: 30px;
+  
+    position: absolute;
+    overflow: hidden;
+  
+    animation: marquee 5s linear infinite;
+  }
+  
+  .marquee i {
+    float: left;
+    width: 50%;
+  }
+  
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
   }

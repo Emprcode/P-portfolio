@@ -12,15 +12,10 @@ export const Education = () => {
         <div className="  mt-5 p-3 d-flex justify-content-center align-items-center">
           <h2 className="fw-bold">Education </h2>
         </div>
-        {/* <h6 className="mt-4">
-          8888888888888888888888888888888888888888888888888?
-        </h6> */}
       </Row>
       <VerticalTimeline className="education">
         <VerticalTimelineElement
           className="vertical-timeline-element--work "
-          // contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="August 2022 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#000000" }}
           icon={<i class="fa-solid fa-code-compare"></i>}>
@@ -50,7 +45,7 @@ export const Education = () => {
           <div className="mt-3">
             <h5 className="fw-bold">
               {" "}
-              Bachelor of Information Technology (software Development)
+              Bachelor of Information Technology (Software Development)
             </h5>
             <p>Successfully completed the course with 5.620 GPA.</p>
           </div>

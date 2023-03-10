@@ -22,8 +22,7 @@ export const Projects = () => {
                       <h2 className="fw-bold">My Recent Works </h2>
                     </div>
                     <h6 className="mt-4">
-                      Here are a few past design projects I've worked on. Want
-                      to see more?{" "}
+                      Here are a few projects I've worked on. Want to see more?{" "}
                       <a href="https://github.com/Emprcode">Check here.</a>
                     </h6>
                   </Row>

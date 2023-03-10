@@ -1,41 +1,78 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { Button, Card } from 'react-bootstrap';
+import { Container, Row } from "react-bootstrap";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 export const Education = () => {
-    useEffect(() => {
-        AOS.init();
-      }, [])
   return (
-    <div
-     data-aos="fade-up"
-    data-aos-anchor-placement="top-center">
-
-  
-    <Card style={{ width: '50rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '50rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-
-  </div>
-  )
-}
+    <Container>
+      <Row className="info  p-5 text-center ">
+        <div className="  mt-5 p-3 d-flex justify-content-center align-items-center">
+          <h2 className="fw-bold">Education </h2>
+        </div>
+        {/* <h6 className="mt-4">
+          8888888888888888888888888888888888888888888888888?
+        </h6> */}
+      </Row>
+      <VerticalTimeline className="education">
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work "
+          // contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          // contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          date="August 2022 - present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#000000" }}
+          icon={<i class="fa-solid fa-code-compare"></i>}>
+          <h3 className="vertical-timeline-element-title fw-bold">
+            Dented Code Academy
+          </h3>
+          <h6 className="vertical-timeline-element-subtitle">
+            Sydney, Australia
+          </h6>
+          <div className="mt-3">
+            <h5 className="fw-bold"> Coding Bootcamp</h5>
+            <p>
+              Skills- MERN Stack, MongoDB, Express.js, React, Node. Currently
+              Working in Full-Stack E-commerce Project.
+            </p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2019 - 2022"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<i className="fa-solid fa-user-graduate"></i>}>
+          <h3 className="vertical-timeline-element-title  fw-bold">
+            Federation University Australia
+          </h3>
+          <h6 className="vertical-timeline-element-subtitle">Australia</h6>
+          <div className="mt-3">
+            <h5 className="fw-bold">
+              {" "}
+              Bachelor of Information Technology (software Development)
+            </h5>
+            <p>Successfully completed the course with 5.620 GPA.</p>
+          </div>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2017 - 2019"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<i class="fa-solid fa-building-columns"></i>}>
+          <h3 className="vertical-timeline-element-title  fw-bold">
+            Oxford Secondary School
+          </h3>
+          <h6 className="vertical-timeline-element-subtitle">Nepal</h6>
+          <div className="mt-3">
+            <h5 className="fw-bold">
+              {" "}
+              Secondary level education - Major Science
+            </h5>
+            <p>CGPA: 3.50</p>
+          </div>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+    </Container>
+  );
+};

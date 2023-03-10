@@ -2,11 +2,9 @@
     height: 80vh;
 }
 
-.card-height{
-    height: 15rem;
-}
+
 .card-body{
-    height: 12rem;
+    height: 10rem;
 }
 
 .icons{
@@ -165,4 +163,21 @@ text-fill-color: transparent;
     width: 35%;
     right: 0;
     z-index: -4;
+  }
+
+  .education{
+    background: #d8dee1a7;
+  }
+  .about-icon{
+    background: #5BE9B9;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+    /* color: #5BE9B9; */
   }

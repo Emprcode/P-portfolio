@@ -1,8 +1,6 @@
 import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import code1 from "../assets/code1.png";
-import coffee from "../assets/coffee.png";
-import hobbies from "../assets/hobbies.png";
+
 import resume from "../assets/Resume.pdf";
 
 export const About = () => {
@@ -35,11 +33,13 @@ export const About = () => {
         </div>
       </Row>
 
-      <Row className=" about d-flex flex-wrap ">
-        <div> </div>
+      <Row className=" about d-flex flex-sm-wrap">
         <Col>
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={code1} className="card-height" />
+          <Card style={{ width: "18rem" }} className="p-2">
+            <span className="p-2 mb-2 h1 about-icon">
+              {" "}
+              <i class="fa-solid fa-code"></i>
+            </span>
 
             <Card.Body className="card-body">
               <Card.Text className="h6">
@@ -52,8 +52,12 @@ export const About = () => {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={coffee} className="card-height" />
+          <Card style={{ width: "18rem" }} className="p-2">
+            <span className="p-2 mb-2 h1 about-icon">
+              {" "}
+              <i class="fa-solid fa-comments"></i>
+            </span>
+
             <Card.Body className="card-body">
               <Card.Text className="h6">
                 If you have creative thoughts and want to collaborate with
@@ -64,8 +68,11 @@ export const About = () => {
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={hobbies} className="card-height" />
+          <Card style={{ width: "18rem" }} className="p-2">
+            <span className="p-2 mb-2 h1 about-icon">
+              {" "}
+              <i class="fa-solid fa-face-smile"></i>
+            </span>
             <Card.Body className="card-body">
               <Card.Text className="h6">
                 Besides coding, I enjoy my life travelling, playing various

@@ -3,8 +3,8 @@ import { Button, Container, Row } from "react-bootstrap";
 
 export const Contact = () => {
   return (
-    <Container>
-      <Row className="info  p-5 text-center ">
+    <Container className="p-4">
+      <Row className="info text-center ">
         <div className="  mt-5 p-3 d-flex justify-content-center align-items-center">
           <h2 className="fw-bold">Interested in collaborating with me? </h2>
         </div>

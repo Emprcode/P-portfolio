@@ -2,9 +2,23 @@
     height: 80vh;
 }
 
+.App{
+  overflow-x: hidden;
+}
 
 .card-body{
     height: 10rem;
+}
+
+/* about */
+.info h6{
+padding: 0 2rem;
+}
+
+
+/* skills */
+.skills{
+  padding: 6rem 0 0 0;
 }
 
 .icons{
@@ -13,9 +27,16 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 8rem;
-   
+    gap: 10rem;
     
+}
+@media screen and (max-width: 600px){
+  .icons{
+    gap: 3rem;
+  }
+  .icons div i{
+    font-size: 3rem;
+  }
 }
 .icons div{
     margin-bottom: 3rem;
@@ -40,12 +61,11 @@ text-fill-color: transparent;
 /* project */
 
 .project {
-    padding: 80px 0;
+  padding: 0 0 6rem 0;
     position: relative;
     background-color: white;
   }
   .project h2 {
-      font-size: 45px;
       font-weight: 700;
     text-align: center;
   }
@@ -114,11 +134,10 @@ text-fill-color: transparent;
   }
   .proj-imgbx {
     position: relative;
-   
-   
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
   }
   .proj-imgbx::before {
     content: "";
@@ -131,6 +150,11 @@ text-fill-color: transparent;
   }
   .proj-imgbx:hover::before {
     height: 100%;
+  }
+  .proj-imgbx img{
+    width: 100%;
+    height: 15rem;
+    object-fit: contain;
   }
   .proj-txtx {
     position: absolute;
@@ -169,6 +193,7 @@ text-fill-color: transparent;
 
   .education{
     background: #d8dee1a7;
+    padding: 2rem 0 6rem 0;
   }
   .about-icon{
     background: #5BE9B9;
@@ -178,37 +203,24 @@ text-fill-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-
-
-    /* color: #5BE9B9; */
   }
 
-  .marquee {
-    height: 25px;
-    width: 420px;
+.about-color{
+  background: #d8dee1a7;
+  padding: 2rem 0 6rem 0;
+}
+
+.card {
   
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .marquee div {
-    display: block;
-    width: 200%;
-    height: 30px;
-  
-    position: absolute;
-    overflow: hidden;
-  
-    animation: marquee 5s linear infinite;
-  }
-  
-  .marquee i {
-    float: left;
-    width: 50%;
-  }
-  
-  @keyframes marquee {
-    0% { left: 0; }
-    100% { left: -100%; }
-  }
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.card:hover::before {
+  opacity: 1;
+}

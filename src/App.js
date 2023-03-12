@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import "./App.css";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
@@ -12,16 +11,14 @@ import { Skills } from "./components/Skills";
 const App = () => {
   return (
     <div className="App">
-      <Container>
-        <Header />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Education />
-        <Contact />
-        <Footer />
-      </Container>
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Education />
+      <Contact />
+      <Footer />
     </div>
   );
 };

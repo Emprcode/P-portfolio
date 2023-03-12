@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap";
+import {  Row } from "react-bootstrap";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,19 +7,20 @@ import "react-vertical-timeline-component/style.min.css";
 
 export const Education = () => {
   return (
-    <Container>
-      <Row className="info  p-5 text-center ">
-        <div className="  mt-5 p-3 d-flex justify-content-center align-items-center">
+    <div className="education">
+      <Row className="info p-4 text-center">
+        <div className="mt-5">
           <h2 className="fw-bold">Education </h2>
+          <p className="mt-4 "></p>
         </div>
       </Row>
-      <VerticalTimeline className="education">
+      <VerticalTimeline>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work "
+          className="vertical-timeline-element--work ms-5 me-5"
           date="August 2022 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#000000" }}
+          iconStyle={{ background: "#5BE9B9", color: "#000000" }}
           icon={
-            <span className="h1 p-2 vertical-timeline-element--work">
+            <span className="h1 p-2 d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-code-compare"></i>{" "}
             </span>
           }>
@@ -38,11 +39,11 @@ export const Education = () => {
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work  ms-5 me-5"
           date="2019 - 2022"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "#5BE9B9", color: "#fff" }}
           icon={
-            <span className="h1 p-3 vertical-timeline-element--work">
+            <span className="h1 p-3 d-flex align-items-center justify-content-center">
               <i className="fa-solid fa-user-graduate text-dark"></i>{" "}
             </span>
           }>
@@ -59,11 +60,11 @@ export const Education = () => {
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element--work  ms-5 me-5"
           date="2017 - 2019"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "#5BE9B9", color: "#fff" }}
           icon={
-            <span className="h1 p-2 vertical-timeline-element--work">
+            <span className="h1 p-2 d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-building-columns text-dark"></i>
             </span>
           }>
@@ -80,6 +81,6 @@ export const Education = () => {
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>
-    </Container>
+    </div>
   );
 };

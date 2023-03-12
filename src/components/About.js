@@ -1,16 +1,16 @@
 import React from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Row } from "react-bootstrap";
 
 import resume from "../assets/Resume.pdf";
 
 export const About = () => {
   return (
-    <Container>
-      <Row className="info  p-5 text-center ">
+    <div className="about-color">
+      <Row className="info text-center ">
         <div className="  mt-5 p-3 d-flex justify-content-center align-items-center">
           <h2 className="fw-bold">Hi, I'm Narayan Aryal </h2>
         </div>
-        <h6 className="mt-4">
+        <h6 className="mt-4 fw-bold">
           {" "}
           I am a{" "}
           <span className="fw-bold text-primary">
@@ -33,56 +33,56 @@ export const About = () => {
         </div>
       </Row>
 
-      <Row className=" about d-flex flex-sm-wrap">
-        <Col>
-          <Card style={{ width: "18rem" }} className="p-2">
-            <span className="p-2 mb-2 h1 about-icon">
-              {" "}
-              <i class="fa-solid fa-code"></i>
-            </span>
+      <Row className="justify-content-center gap-5 flex-sm-wrap p-3">
+        <Card
+          style={{ width: "18rem" }}
+          className="p-3 d-flex justify-content-center align-items-center ">
+          <span className="p-2 mb-2 h1 about-icon">
+            {" "}
+            <i class="fa-solid fa-code"></i>
+          </span>
 
-            <Card.Body className="card-body">
-              <Card.Text className="h6">
-                I love coding things and enjoy bringing ideas to life.
-                Personally, I use JavaScript and its framework to create
-                beautiful web applications from the scratch.
-              </Card.Text>
-              {/* <Button variant="primary">Go somewhere</Button> */}
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: "18rem" }} className="p-2">
-            <span className="p-2 mb-2 h1 about-icon">
-              {" "}
-              <i class="fa-solid fa-comments"></i>
-            </span>
+          <Card.Body className="card-body">
+            <Card.Text className="h6">
+              I love coding things and enjoy bringing ideas to life. Personally,
+              I use JavaScript and its framework to create beautiful web
+              applications from the scratch.
+            </Card.Text>
+            {/* <Button variant="primary">Go somewhere</Button> */}
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ width: "18rem" }}
+          className=" card p-3 d-flex justify-content-center align-items-center">
+          <span className="p-2 mb-2 h1 about-icon">
+            {" "}
+            <i class="fa-solid fa-comments"></i>
+          </span>
 
-            <Card.Body className="card-body">
-              <Card.Text className="h6">
-                If you have creative thoughts and want to collaborate with
-                someone, I'm always up for a chat.
-              </Card.Text>
-              {/* <Button variant="primary">Go somewhere</Button> */}
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: "18rem" }} className="p-2">
-            <span className="p-2 mb-2 h1 about-icon">
-              {" "}
-              <i class="fa-solid fa-face-smile"></i>
-            </span>
-            <Card.Body className="card-body">
-              <Card.Text className="h6">
-                Besides coding, I enjoy my life travelling, playing various
-                sports and listening music and many more.
-              </Card.Text>
-              {/* <Button variant="primary">Go somewhere</Button> */}
-            </Card.Body>
-          </Card>
-        </Col>
+          <Card.Body className="card-body">
+            <Card.Text className="h6">
+              If you have creative thoughts and want to work with
+              someone, I'm always up for a chat.
+            </Card.Text>
+            {/* <Button variant="primary">Go somewhere</Button> */}
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ width: "18rem" }}
+          className="p-3 d-flex justify-content-center align-items-center">
+          <span className="p-2 mb-2 h1 about-icon">
+            {" "}
+            <i class="fa-solid fa-face-smile"></i>
+          </span>
+          <Card.Body className="card-body">
+            <Card.Text className="h6">
+              Besides coding, I enjoy my life travelling, playing various sports
+              and listening music and many more.
+            </Card.Text>
+            {/* <Button variant="primary">Go somewhere</Button> */}
+          </Card.Body>
+        </Card>
       </Row>
-    </Container>
+    </div>
   );
 };

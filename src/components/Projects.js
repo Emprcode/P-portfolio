@@ -18,7 +18,7 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }>
                   <Row className="info  p-5 text-center ">
-                    <div className="  mt-5 p-3 d-flex justify-content-center align-items-center">
+                    <div className="mt-5 p-3 d-flex justify-content-center align-items-center">
                       <h2 className="fw-bold">My Recent Works </h2>
                     </div>
                     <h6 className="mt-4">

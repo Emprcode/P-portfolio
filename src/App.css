@@ -125,8 +125,7 @@ text-fill-color: transparent;
   }
   .nav-link#projects-tabs-tab-second {
     border: 1px solid rgba(47, 2, 70, 0.783);
-    /* border-top: 1px solid rgba(255, 255, 255, 0.5); */
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
+    
   }
   .nav-link#projects-tabs-tab-third {
     border: 1px solid rgba(47, 2, 70, 0.783);

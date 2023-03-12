@@ -33,7 +33,7 @@ export const Skills = () => {
           </div>
         </div>
       </Marquee>
-      <Marquee direction="right" speed="100" loop="infinite">
+      <Marquee direction="right" speed="100" >
         <div className="icons p-2 mt-2  ">
           <div>
             <i className="fa-brands fa-html5 text-danger"></i>HTML

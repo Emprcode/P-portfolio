@@ -12,7 +12,7 @@ export const Footer = () => {
         </p>
       </Row>
       <Row className=" p-3 mt-2 " id="contact-address">
-        <Col className="d-flex justify-content-center align-items-center gap-5 h1">
+        <Col className=" d-flex justify-content-center align-items-center gap-5 h1">
           <a
             href="https://www.linkedin.com/in/naryal/"
             target="_blank"
@@ -33,7 +33,7 @@ export const Footer = () => {
           </a>
         </Col>
       </Row>
-      <Row className="text-center p-5">
+      <Row className="text-center p-2 mb-3">
         <h6>&copy; All rights Reserved </h6>
       </Row>
     </Container>

@@ -33,7 +33,7 @@ export const Projects = () => {
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Everything</Nav.Link>
+                        <Nav.Link  eventKey="first">Everything</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Full Stack Apps</Nav.Link>

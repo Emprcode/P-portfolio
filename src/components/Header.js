@@ -2,7 +2,7 @@ import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import code from '../assets/code.png'
+import logo from '../assets/logo.png'
 
 
 export const Header = () => {
@@ -10,7 +10,7 @@ export const Header = () => {
     <Navbar bg="none" expand="md">
       <Container className='mt-3'>
         <Navbar.Brand href="#home" >
-          <img src={code} alt="logo" width="80px"/>
+          <img src={logo} alt="logo" width="80px"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

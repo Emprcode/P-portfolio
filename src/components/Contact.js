@@ -15,7 +15,7 @@ export const Contact = () => {
       </Row>
       <div className="text-center mb-5">
         {" "}
-        <a href="mailto:your@email.com" target="_blank" rel="noreferrer">
+        <a href="mailto:narayanaryal.code@gmail.com" target="_blank" rel="noreferrer">
           <Button
             variant="none"
             

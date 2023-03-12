@@ -25,7 +25,6 @@ export const About = () => {
           <a href={resume} download={true}>
             <Button
               variant="none"
-              href="#contact"
               className="btn btn-outline-success rounded fw-bold">
               Download Resume <i className="fa-solid fa-download"></i>
             </Button>
@@ -61,8 +60,8 @@ export const About = () => {
 
           <Card.Body className="card-body">
             <Card.Text className="h6">
-              If you have creative thoughts and want to work with
-              someone, I'm always up for a chat.
+              If you have creative thoughts and want to work with someone, I'm
+              always up for a chat.
             </Card.Text>
             {/* <Button variant="primary">Go somewhere</Button> */}
           </Card.Body>

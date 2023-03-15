@@ -2,6 +2,10 @@ import React from "react";
 import { Button, Card, Row } from "react-bootstrap";
 
 import resume from "../assets/Resume.pdf";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 export const About = () => {
   return (
@@ -32,7 +36,8 @@ export const About = () => {
         </div>
       </Row>
 
-      <Row className="justify-content-center gap-5 flex-sm-wrap p-3">
+      <Row className="justify-content-center gap-5 flex-sm-wrap p-3" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
         <Card
           style={{ width: "18rem" }}
           className="p-3 d-flex justify-content-center align-items-center ">
@@ -68,7 +73,7 @@ export const About = () => {
         </Card>
         <Card
           style={{ width: "18rem" }}
-          className="p-3 d-flex justify-content-center align-items-center">
+          className="p-3 d-flex justify-content-center align-items-center" >
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
             <i class="fa-solid fa-face-smile"></i>

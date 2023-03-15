@@ -2,9 +2,10 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Marquee from "react-fast-marquee";
 
+
 export const Skills = () => {
   return (
-    <Container id="skills" className="skills">
+    <Container id="skills" className="skills" >
       <div className="text-center mb-3">
         <h3 className="fw-bold"> How do I develop beautiful web apps? </h3>
         <p className="mt-4 ">

@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
+
 export const Footer = () => {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5" >
       <Row className="text-center mb-3">
         <h3 className="fw-bold"> Get in touch </h3>
         <p className="mt-3 h6">

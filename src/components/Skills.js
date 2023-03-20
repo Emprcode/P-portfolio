@@ -30,7 +30,7 @@ export const Skills = () => {
           </div>
           <div>
             {" "}
-            <i class="fa-brands fa-python text-info"></i>Python
+            <i class="fa-brands fa-docker text-info"></i> Docker{ " "}
           </div>
         </div>
       </Marquee>

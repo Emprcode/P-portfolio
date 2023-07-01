@@ -6,6 +6,8 @@ import portfolio from "../../assets/portfolio.png";
 import calc from "../../assets/calc.png";
 import contact from "../../assets/contact-list.png";
 import movielist from "../../assets/movielist.png";
+import boringCompany from "../../assets/boring-company.png";
+import tesla from "../../assets/tesla.png";
 
 export const Websites = () => {
     const projects = [
@@ -17,11 +19,26 @@ export const Websites = () => {
         live: "",
       },
       {
+        title: "Tesla Clone",
+        description: "Design & Development",
+        imgUrl: tesla,
+        github: "https://github.com/Emprcode/Tesla-Clone",
+        live: "https://tesla-clone-emprcode.vercel.app/",
+      },
+      {
+        title: "The Boring Company Clone",
+        description: "Design & Development",
+        imgUrl: boringCompany,
+        github: "https://github.com/Emprcode/Boring-Company-Clone",
+        live: "https://boring-company-clone.vercel.app/",
+      },
+    
+      {
         title: "Movie List App",
         description: "Design & Development",
         imgUrl: movielist,
         github: " https://github.com/Emprcode/movie-list-app",
-        live: " https://emprcode.github.io/movie-list-app/",
+        live: "https://react-movie-list-kappa.vercel.app/",
       },
       {
         title: "Contact List App",

@@ -12,6 +12,7 @@ import calc from "../../assets/calc.png";
 import portfolio from "../../assets/portfolio.png";
 import boringCompany from "../../assets/boring-company.png";
 import tesla from "../../assets/tesla.png";
+import counter from '../../assets/counter.png'
 
 export const Everything = () => {
   const projects = [
@@ -78,6 +79,13 @@ export const Everything = () => {
       imgUrl: contact,
       github: " https://github.com/Emprcode/contact-list",
       live: "https://emprcode.github.io/contact-list/",
+    },
+    {
+      title: "Counter App",
+      description: "Design & Development",
+      imgUrl: counter,
+      github: "https://github.com/Emprcode/counter-js-project",
+      live: "https://counter-js-project-drab.vercel.app/",
     },
     {
       title: "The prank calculator",

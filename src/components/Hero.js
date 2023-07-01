@@ -11,8 +11,8 @@ export const Hero = () => {
         </div>
         <h5 className="mt-4"> I love to write code</h5>
       </Row>
-      <Row>
-        <div className="   d-flex justify-content-center align-items-center">
+      <Row >
+        <div className="d-flex justify-content-center align-items-center">
           <img src={avatar} alt="my-img" width="30%" />
         </div>
       </Row>

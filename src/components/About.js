@@ -32,7 +32,6 @@ export const About = () => {
               className="btn btn-outline-success rounded fw-bold">
               Download Resume <i className="fa-solid fa-download"></i>
             </Button>
-            <div variant='none' href="#contact-address" className='button fw-bold'> Download Resume</div>
           </a>
         </div>
       </Row>

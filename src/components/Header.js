@@ -17,8 +17,11 @@ export const Header = () => {
           <Nav className="ms-auto fw-bold gap-3">
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#project">Project</Nav.Link>
-         <Button variant='none' href="#contact-address" className='btn btn-outline-primary rounded fw-bold'> Say Hello</Button>
-           
+         <div variant='none' href="#contact-address" className='button fw-bold'> Say Hello</div>
+         {/* <div
+     
+     className='button mt-5'>DEMO DRIVE</div>
+     </div> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

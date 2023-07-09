@@ -43,7 +43,7 @@ export const Everything = () => {
       description: "Develop and Deployment",
       imgUrl: tesla,
       github: "https://github.com/Emprcode/Tesla-Clone",
-      live: "https://tesla-clone-emprcode.vercel.app/",
+      live: "https://tesla-clone-rho-three.vercel.app/",
     },
     {
       title: "The Boring Company Clone",

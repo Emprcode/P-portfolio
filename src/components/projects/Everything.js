@@ -12,6 +12,7 @@ import calc from "../../assets/calc.png";
 import portfolio from "../../assets/portfolio.png";
 import boringCompany from "../../assets/boring-company.png";
 import tesla from "../../assets/tesla.png";
+import uber from "../../assets/uber.png";
 import counter from '../../assets/counter.png'
 
 export const Everything = () => {
@@ -28,18 +29,25 @@ export const Everything = () => {
       description: "Develop and Deployment",
       imgUrl: portfolio,
       github: "https://github.com/Emprcode/P-portfolio",
-      live: "",
+      live: "https://www.narayanaryal.com/",
+    },
+    {
+      title: "Uber Clone",
+      description: "Develop and Deployment",
+      imgUrl: uber,
+      github: "https://github.com/Emprcode/Uber-clone",
+      live: "https://uber-clone-five-roan.vercel.app/",
     },
     {
       title: "Tesla Clone",
-      description: "Design & Development",
+      description: "Develop and Deployment",
       imgUrl: tesla,
       github: "https://github.com/Emprcode/Tesla-Clone",
       live: "https://tesla-clone-emprcode.vercel.app/",
     },
     {
       title: "The Boring Company Clone",
-      description: "Design & Development",
+      description: "Develop and Deployment",
       imgUrl: boringCompany,
       github: "https://github.com/Emprcode/Boring-Company-Clone",
       live: "https://boring-company-clone.vercel.app/",
@@ -47,14 +55,14 @@ export const Everything = () => {
 
     {
       title: "Library Management System",
-      description: "Design & Development",
+      description: "Develop and Deployment",
       imgUrl: library,
       github: "https://github.com/Emprcode/client-Library-management",
       live: "",
     },
     {
       title: "Expenses Tracker App",
-      description: "Design & Development",
+      description: "Develop and Deployment",
       imgUrl: expenses,
       github: "https://github.com/Emprcode/Self-time-management",
       live: "",

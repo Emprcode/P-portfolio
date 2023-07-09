@@ -7,6 +7,7 @@ import calc from "../../assets/calc.png";
 import contact from "../../assets/contact-list.png";
 import movielist from "../../assets/movielist.png";
 import boringCompany from "../../assets/boring-company.png";
+import uber from "../../assets/uber.png";
 import tesla from "../../assets/tesla.png";
 import counter from '../../assets/counter.png'
 
@@ -17,7 +18,14 @@ export const Websites = () => {
         description: "Develop and Deployment",
         imgUrl: portfolio,
         github: "https://github.com/Emprcode/P-portfolio",
-        live: "",
+        live: "https://www.narayanaryal.com/",
+      },
+      {
+        title: "Uber Clone",
+        description: "Design & Development",
+        imgUrl: uber,
+        github: "https://github.com/Emprcode/Uber-clone",
+        live: "https://uber-clone-five-roan.vercel.app/",
       },
       {
         title: "Tesla Clone",

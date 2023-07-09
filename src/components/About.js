@@ -25,7 +25,7 @@ export const About = () => {
           developing websites and applications and love to work on various
           projects.
         </h6>
-        <div className="p-3">
+        <div className="p-3 ">
           <a href={resume} download={true}>
             <Button
               variant="none"

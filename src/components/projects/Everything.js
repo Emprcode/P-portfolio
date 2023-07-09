@@ -8,12 +8,12 @@ import library from "../../assets/library.png";
 import expenses from "../../assets/expenses.png";
 import movielist from "../../assets/movielist.png";
 import notodolist from "../../assets/notodolist.png";
-import calc from "../../assets/calc.png";
+// import calc from "../../assets/calc.png";
 import portfolio from "../../assets/portfolio.png";
 import boringCompany from "../../assets/boring-company.png";
 import tesla from "../../assets/tesla.png";
 import uber from "../../assets/uber.png";
-import counter from '../../assets/counter.png'
+// import counter from '../../assets/counter.png'
 
 export const Everything = () => {
   const projects = [
@@ -88,20 +88,20 @@ export const Everything = () => {
       github: " https://github.com/Emprcode/contact-list",
       live: "https://emprcode.github.io/contact-list/",
     },
-    {
-      title: "Counter App",
-      description: "Design & Development",
-      imgUrl: counter,
-      github: "https://github.com/Emprcode/counter-js-project",
-      live: "https://counter-js-project-drab.vercel.app/",
-    },
-    {
-      title: "The prank calculator",
-      description: "Design & Development",
-      imgUrl: calc,
-      github: " https://github.com/Emprcode/Prank-calculator-app",
-      live: "https://emprcode.github.io/Prank-calculator-app/",
-    },
+    // {
+    //   title: "Counter App",
+    //   description: "Design & Development",
+    //   imgUrl: counter,
+    //   github: "https://github.com/Emprcode/counter-js-project",
+    //   live: "https://counter-js-project-drab.vercel.app/",
+    // },
+    // {
+    //   title: "The prank calculator",
+    //   description: "Design & Development",
+    //   imgUrl: calc,
+    //   github: " https://github.com/Emprcode/Prank-calculator-app",
+    //   live: "https://emprcode.github.io/Prank-calculator-app/",
+    // },
   ];
   return (
     <Tab.Pane eventKey="first">

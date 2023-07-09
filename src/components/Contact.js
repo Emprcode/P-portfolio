@@ -16,10 +16,10 @@ export const Contact = () => {
       </Row>
       <div className="text-center mb-5">
         {" "}
-        <a href="mailto:narayanaryal.code@gmail.com" target="_blank" rel="noreferrer">
+        <a href="mailto:narayanaryal.code@gmail.com">
           <Button
             variant="none"
-            
+            type='button'
             className="btn btn-outline-success rounded fw-bold">
             {" "}
             Email Me

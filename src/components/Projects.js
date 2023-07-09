@@ -23,7 +23,7 @@ export const Projects = () => {
                     </div>
                     <h6 className="mt-4">
                       Here are a few projects I've worked on. Want to see more?{" "}
-                      <a href="https://github.com/Emprcode">Check here.</a>
+                      <a href="https://github.com/Emprcode" target="_blank" rel="noreferrer">Check here.</a>
                     </h6>
                   </Row>
 

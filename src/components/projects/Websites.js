@@ -21,7 +21,7 @@ export const Websites = () => {
         live: "https://www.narayanaryal.com/",
       },
       {
-        title: "Uber Clone",
+        title: "Uber UI Clone",
         description: "Design & Development",
         imgUrl: uber,
         github: "https://github.com/Emprcode/Uber-clone",

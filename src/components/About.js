@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, Row } from "react-bootstrap";
 
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/Resume1.pdf";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

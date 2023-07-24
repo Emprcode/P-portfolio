@@ -32,7 +32,7 @@ export const Everything = () => {
       live: "https://www.narayanaryal.com/",
     },
     {
-      title: "Uber Clone",
+      title: "Uber UI Clone",
       description: "Develop and Deployment",
       imgUrl: uber,
       github: "https://github.com/Emprcode/Uber-clone",
@@ -66,8 +66,6 @@ export const Everything = () => {
       github: "https://github.com/Emprcode/Boring-Company-Clone",
       live: "https://boring-company-clone.vercel.app/",
     },
-
-  
    
     {
       title: "Not-To-Do List App",

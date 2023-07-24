@@ -14,7 +14,7 @@ export const Skills = () => {
       </div>
       <Marquee direction="left" speed="100" gradient="false">
         <div className="icons p-3 mt-5">
-          <div>
+          <div className="">
             <i className="fa-brands fa-react text-primary"></i>REACT
           </div>
           <div>
@@ -23,15 +23,15 @@ export const Skills = () => {
           <div>
             <i className="fa-solid fa-database text-success"></i>MONGODB
           </div>
-
+          
           <div>
-            {" "}
             <i className="fa-brands fa-js text-warning"></i>JavaScript
           </div>
           <div>
             {" "}
-            <i class="fa-brands fa-docker text-info"></i> Docker{ " "}
+            <i className="fa-brands fa-docker text-info"></i> Docker{ " "}
           </div>
+          
         </div>
       </Marquee>
       <Marquee direction="right" speed="100" >
@@ -43,18 +43,20 @@ export const Skills = () => {
             {" "}
             <i className="fa-brands fa-css3-alt text-primary"></i>CSS
           </div>
+        
           <div>
-            {" "}
-            <i className="fa-brands fa-bootstrap text-success"></i> BOOTSTRAP
+       
+            <i className="fa-brands fa-sass" style={{color:" #e60f77"}}></i>SASS
+          </div>
+          <div>
+            <i className="fa-brands fa-aws" style={{color: "#061e93",}}></i> AWS
           </div>
           <div>
             {" "}
             <i className="fa-brands fa-git-alt"></i> Git
           </div>
 
-          <div>
-            <i className="fa-brands fa-figma"></i> FIGMA
-          </div>
+         
         </div>
       </Marquee>
     </Container>

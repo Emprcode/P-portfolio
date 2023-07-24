@@ -5,7 +5,7 @@ import { ProjectCard } from "../ProjectCard";
 import ecom from "../../assets/e-com.png";
 import contact from "../../assets/contact-list.png";
 import library from "../../assets/library.png";
-import expenses from "../../assets/expenses.png";
+import finance from "../../assets/finance.png";
 import movielist from "../../assets/movielist.png";
 import notodolist from "../../assets/notodolist.png";
 // import calc from "../../assets/calc.png";
@@ -39,6 +39,20 @@ export const Everything = () => {
       live: "https://uber-clone-five-roan.vercel.app/",
     },
     {
+      title: "Library Management System",
+      description: "Develop and Deployment",
+      imgUrl: library,
+      github: "https://github.com/Emprcode/client-Library-management",
+      live: "",
+    },
+    {
+      title: "Finance Tracker App",
+      description: "Develop and Deployment",
+      imgUrl: finance,
+      github: "https://github.com/Emprcode/ft-v2-api.git",
+      live: "https://dark-puce-pangolin-fez.cyclic.app",
+    },
+    {
       title: "Tesla Clone",
       description: "Develop and Deployment",
       imgUrl: tesla,
@@ -53,20 +67,8 @@ export const Everything = () => {
       live: "https://boring-company-clone.vercel.app/",
     },
 
-    {
-      title: "Library Management System",
-      description: "Develop and Deployment",
-      imgUrl: library,
-      github: "https://github.com/Emprcode/client-Library-management",
-      live: "",
-    },
-    {
-      title: "Expenses Tracker App",
-      description: "Develop and Deployment",
-      imgUrl: expenses,
-      github: "https://github.com/Emprcode/Self-time-management",
-      live: "",
-    },
+  
+   
     {
       title: "Not-To-Do List App",
       description: "Design & Development",

@@ -4,7 +4,7 @@ import { Row, Tab } from 'react-bootstrap';
 import { ProjectCard } from '../ProjectCard';
 import ecom from "../../assets/e-com.png";
 import library from "../../assets/library.png";
-import expenses from "../../assets/expenses.png";
+import finance from "../../assets/finance.png";
 import notodolist from "../../assets/notodolist.png";
 
 export const FullStacks = () => {
@@ -26,11 +26,11 @@ export const FullStacks = () => {
       live: "",
     },
     {
-      title: "Expenses Tracker App",
-      description: "Design & Development",
-      imgUrl: expenses,
-      github: "https://github.com/Emprcode/Self-time-management",
-      live: "",
+      title: "Finance Tracker App",
+      description: "Develop and Deployment",
+      imgUrl: finance,
+      github: "https://github.com/Emprcode/ft-v2-api.git",
+      live: "https://dark-puce-pangolin-fez.cyclic.app",
     },
     {
       title: "Not-To-Do List App",

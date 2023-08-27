@@ -1,7 +1,6 @@
 import React from "react";
-import { Button, Card, Row } from "react-bootstrap";
+import { Card, Row } from "react-bootstrap";
 
-import resume from "../assets/Resume1.pdf";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -25,7 +24,7 @@ export const About = () => {
           developing websites and applications and love to work on various
           projects.
         </h6>
-        <div className="p-3 ">
+        {/* <div className="p-3 ">
           <a href={resume} download={true}>
             <Button
               variant="none"
@@ -33,10 +32,10 @@ export const About = () => {
               Download Resume <i className="fa-solid fa-download"></i>
             </Button>
           </a>
-        </div>
+        </div> */}
       </Row>
 
-      <Row className="justify-content-center gap-5 flex-sm-wrap p-3" data-aos="fade-up"
+      <Row className="justify-content-center gap-5 flex-sm-wrap mt-5 p-3" data-aos="fade-up"
      data-aos-anchor-placement="top-center">
         <Card
           style={{ width: "18rem" }}

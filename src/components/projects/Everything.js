@@ -49,7 +49,7 @@ export const Everything = () => {
       description: "automates library operations, and retrieval, making it easier for users to find and access resources. ",
       imgUrl: library,
       github: "https://github.com/Emprcode/client-Library-management",
-      live: "",
+      live: "https://library-mgmt-client.vercel.app/",
     },
     {
       title: "Finance Tracker App",

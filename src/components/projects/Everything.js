@@ -21,7 +21,7 @@ export const Everything = () => {
       description: "full stack Content Management System for Admin of the aceXsports",
       imgUrl: adminCms,
       github: "https://github.com/Emprcode/E-commerce_api_admin",
-      live: "https://github.com/Emprcode/E-commerce_api_admin",
+      live: "https://github.com/Emprcode/E-commerce-adminCMS-client",
     },
     {
       title: "aceXsports",

@@ -2,27 +2,33 @@ import React from "react";
 import "animate.css";
 import { Row, Tab } from "react-bootstrap";
 import { ProjectCard } from "../ProjectCard";
-import ecom from "../../assets/e-com.png";
+import eCom from "../../assets/eCom.png";
+import adminCms from "../../assets/adminCms.png";
 import contact from "../../assets/contact-list.png";
-import library from "../../assets/library.png";
+import library from "../../assets/librarymgmt.png";
 import finance from "../../assets/finance.png";
 import movielist from "../../assets/movielist.png";
 import notodolist from "../../assets/notodolist.png";
-// import calc from "../../assets/calc.png";
 import portfolio from "../../assets/portfolio.png";
 import boringCompany from "../../assets/boring-company.png";
 import tesla from "../../assets/tesla.png";
 import uber from "../../assets/uber.png";
-// import counter from '../../assets/counter.png'
 
 export const Everything = () => {
   const projects = [
     {
-      title: "E-Commerce project",
-      description: "In development",
-      imgUrl: ecom,
+      title: "Admin CMS",
+      description: "full stack Content Management System for Admin of the aceXsports",
+      imgUrl: adminCms,
       github: "https://github.com/Emprcode/E-commerce_api_admin",
-      live: "",
+      live: "https://github.com/Emprcode/E-commerce_api_admin",
+    },
+    {
+      title: "aceXsports",
+      description: "full stack e-commerce project, space for wide range of sports and street wares.",
+      imgUrl: eCom,
+      github: "https://github.com/Emprcode/E-commerce-store-client",
+      live: "http://my-ecom-store.s3-website-us-east-1.amazonaws.com/",
     },
     {
       title: "Portfolio",
@@ -40,14 +46,14 @@ export const Everything = () => {
     },
     {
       title: "Library Management System",
-      description: "Develop and Deployment",
+      description: "automates library operations, and retrieval, making it easier for users to find and access resources. ",
       imgUrl: library,
       github: "https://github.com/Emprcode/client-Library-management",
       live: "",
     },
     {
       title: "Finance Tracker App",
-      description: "Develop and Deployment",
+      description: "help individuals or businesses manage expenses, income, budgets, and investments efficiently, providing insights into financial health.",
       imgUrl: finance,
       github: "https://github.com/Emprcode/ft-v2-api.git",
       live: "https://dark-puce-pangolin-fez.cyclic.app",
@@ -69,10 +75,10 @@ export const Everything = () => {
    
     {
       title: "Not-To-Do List App",
-      description: "Design & Development",
+      description: "helps users prioritize tasks by specifying what not to do, and provides reminders for avoidance",
       imgUrl: notodolist,
-      github: " https://github.com/Emprcode/node-API-ntdl",
-      live: "",
+      github: " https://github.com/Emprcode/To-do-list",
+      live: "https://to-do-list-psi-flax.vercel.app/",
     },
     {
       title: "Movie List App",

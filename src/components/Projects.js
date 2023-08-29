@@ -8,7 +8,7 @@ import { Websites } from "./projects/Websites";
 export const Projects = () => {
   return (
     <section className="project" id="project">
-      <Container className="bg-none">
+      <Container className="bg-none mb-0">
         <Row>
           <Col size={12}>
             <TrackVisibility>
@@ -23,7 +23,12 @@ export const Projects = () => {
                     </div>
                     <h6 className="mt-4">
                       Here are a few projects I've worked on. Want to see more?{" "}
-                      <a href="https://github.com/Emprcode" target="_blank" rel="noreferrer">Check here.</a>
+                      <a
+                        href="https://github.com/Emprcode"
+                        target="_blank"
+                        rel="noreferrer">
+                        Check here.
+                      </a>
                     </h6>
                   </Row>
 
@@ -33,7 +38,7 @@ export const Projects = () => {
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link  eventKey="first">Everything</Nav.Link>
+                        <Nav.Link eventKey="first">Everything</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Full Stack Apps</Nav.Link>
@@ -58,7 +63,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className="background-image-right" src={avatar}></img> */}
     </section>
   );
 };

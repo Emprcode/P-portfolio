@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Container, Row } from "react-bootstrap";
-
+import { Container, Row } from "react-bootstrap";
+import Chip from '@mui/material/Chip';
 
 export const Contact = () => {
   return (
@@ -17,13 +17,8 @@ export const Contact = () => {
       <div className="text-center mb-5">
         {" "}
         <a href="mailto:narayanaryal.code@gmail.com">
-          <Button
-            variant="none"
-            type='button'
-            className="btn btn-outline-success rounded fw-bold">
-            {" "}
-            Email Me
-          </Button>
+        <Chip label="Email Me" color="success" className="fw-bold" variant="outlined fw-bold" />
+         
         </a>
       </div>
       <hr />

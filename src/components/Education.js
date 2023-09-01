@@ -17,7 +17,7 @@ export const Education = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work ms-5 me-5"
-          date="August 2022 - present"
+          date="August 2022 - March 2023"
           iconStyle={{ background: "#5BE9B9", color: "#000000" }}
           icon={
             <span className="h1 p-2 d-flex align-items-center justify-content-center">

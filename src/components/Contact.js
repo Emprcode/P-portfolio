@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import Chip from '@mui/material/Chip';
 
 export const Contact = () => {
   return (
@@ -14,11 +13,12 @@ export const Contact = () => {
           partnership opportunities.
         </h6>
       </Row>
-      <div className="text-center mb-5">
+      <div className="d-flex justify-content-center mb-5">
         {" "}
-        <a href="mailto:narayanaryal.code@gmail.com">
-        <Chip label="Email Me" color="success" className="fw-bold" variant="outlined fw-bold" />
-         
+        <a href="mailto:narayanaryal.code@gmail.com" className="nav-link">
+        <span variant="none" className="button fw-bold">
+               Email Me
+              </span>
         </a>
       </div>
       <hr />

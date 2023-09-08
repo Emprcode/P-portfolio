@@ -21,7 +21,7 @@ export const About = () => {
             full stack MERN developer{" "}
           </span>{" "}
           based in Sydney, Australia. It's nice to see you here. I enjoy
-          developing websites and applications and love to work on various
+          developing web applications and websites and love to work on various
           projects.
         </h6>
         {/* <div className="p-3 ">
@@ -51,7 +51,6 @@ export const About = () => {
               I use JavaScript and its framework to create beautiful web
               applications from the scratch.
             </Card.Text>
-            {/* <Button variant="primary">Go somewhere</Button> */}
           </Card.Body>
         </Card>
         <Card
@@ -67,7 +66,6 @@ export const About = () => {
               If you have creative thoughts and want to work with someone, I'm
               always up for a chat.
             </Card.Text>
-            {/* <Button variant="primary">Go somewhere</Button> */}
           </Card.Body>
         </Card>
         <Card
@@ -82,7 +80,6 @@ export const About = () => {
               Besides coding, I enjoy my life travelling, playing various sports
               and listening music and many more.
             </Card.Text>
-            {/* <Button variant="primary">Go somewhere</Button> */}
           </Card.Body>
         </Card>
       </Row>

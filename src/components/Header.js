@@ -1,14 +1,14 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../assets/logo.png";
 
 export const Header = () => {
   return (
     <Navbar bg="none" expand="md">
       <Container className="mt-3">
-        <Navbar.Brand href="#home">
-          <img src={logo} alt="logo" width="80px" />
+        <Navbar.Brand href="/">
+          {/* <img src={logo} alt="logo" width="80px" /> */}
+          <span className="head h2 fw-bold">NarayanAryal</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

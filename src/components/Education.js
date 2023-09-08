@@ -31,7 +31,7 @@ export const Education = () => {
             Sydney, Australia
           </h6>
           <div className="mt-3">
-            <h6 className="fw-bold"> Full Stack Development Bootcamp</h6>
+            <h6 className="fw-bold"> Full Stack Development Course</h6>
             <p>
               Skills- MERN Stack, MongoDB, Express.js, React, Node. Currently
               Working in Full-Stack E-commerce Project.

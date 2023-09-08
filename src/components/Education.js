@@ -17,7 +17,7 @@ export const Education = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work ms-5 me-5"
-          date="August 2022 - present"
+          date="August 2022 - Feburary 2023"
           iconStyle={{ background: "#5BE9B9", color: "#000000" }}
           icon={
             <span className="h1 p-2 d-flex align-items-center justify-content-center">
@@ -31,7 +31,7 @@ export const Education = () => {
             Sydney, Australia
           </h6>
           <div className="mt-3">
-            <h6 className="fw-bold"> Full Stack Development Bootcamp</h6>
+            <h6 className="fw-bold"> Full Stack Development Course</h6>
             <p>
               Skills- MERN Stack, MongoDB, Express.js, React, Node. Currently
               Working in Full-Stack E-commerce Project.

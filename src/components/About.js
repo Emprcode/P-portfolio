@@ -38,8 +38,8 @@ export const About = () => {
       <Row className="justify-content-center gap-5 flex-sm-wrap mt-5 p-3" data-aos="fade-up"
      data-aos-anchor-placement="top-center">
         <Card
-          style={{ width: "18rem" }}
-          className="p-3 d-flex justify-content-center align-items-center ">
+          style={{ width: "17rem" }}
+          className="p-4 d-flex justify-content-center align-items-center ">
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
             <i className="fa-solid fa-code"></i>
@@ -54,8 +54,8 @@ export const About = () => {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "18rem" }}
-          className=" card p-3 d-flex justify-content-center align-items-center">
+          style={{ width: "17rem" }}
+          className=" card p-4 d-flex justify-content-center align-items-center">
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
             <i class="fa-solid fa-comments"></i>
@@ -69,8 +69,8 @@ export const About = () => {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "18rem" }}
-          className="p-3 d-flex justify-content-center align-items-center" >
+          style={{ width: "17rem" }}
+          className="p-4 d-flex justify-content-center align-items-center" >
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
             <i class="fa-solid fa-face-smile"></i>

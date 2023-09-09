@@ -42,7 +42,7 @@ export const About = () => {
           className="p-3 d-flex justify-content-center align-items-center ">
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
-            <i class="fa-solid fa-code"></i>
+            <i className="fa-solid fa-code"></i>
           </span>
 
           <Card.Body className="card-body">

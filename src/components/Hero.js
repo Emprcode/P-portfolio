@@ -17,7 +17,7 @@ export const Hero = () => {
               "MERN Developer",
               500,
             ]}
-            style={{ fontSize: "2.5em", fontWeight: "bold" }}
+            style={{ fontSize: "2em", fontWeight: "bold" }}
             repeat={Infinity}
           />
           {/* <h1 className="fw-bold ">Software Engineer</h1> */}

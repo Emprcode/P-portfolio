@@ -5,8 +5,8 @@ import { TypeAnimation } from "react-type-animation";
 
 export const Hero = () => {
   return (
-    <Container>
-      <Row className=" p-5 text-center ">
+    <Container className="hero">
+      <Row className="p-5 text-center ">
         <div className="mt-5 p-3 d-flex justify-content-center align-items-center">
           <TypeAnimation
             sequence={[

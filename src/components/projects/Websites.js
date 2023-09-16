@@ -10,15 +10,16 @@ import boringCompany from "../../assets/boring-company.png";
 import uber from "../../assets/uber.png";
 import tesla from "../../assets/tesla.png";
 // import counter from '../../assets/counter.png'
+import carhub from "../../assets/carhub.png";
 
 export const Websites = () => {
     const projects = [
       {
-        title: "Portfolio",
-        description: "Develop and Deployment",
-        imgUrl: portfolio,
-        github: "https://github.com/Emprcode/P-portfolio",
-        live: "https://www.narayanaryal.com/",
+        title: "Car-Hub",
+        description: "Your portal to elite automobiles, where you discover and admire world-class cars and their stories.",
+        imgUrl: carhub,
+        github: "https://github.com/Emprcode/car-hub-nextjs",
+        live: "https://carhub-lilac.vercel.app/",
       },
       {
         title: "Uber UI Clone",
@@ -28,14 +29,22 @@ export const Websites = () => {
         live: "https://uber-clone-five-roan.vercel.app/",
       },
       {
-        title: "Tesla Clone",
+        title: "Portfolio",
+        description: "Develop and Deployment",
+        imgUrl: portfolio,
+        github: "https://github.com/Emprcode/P-portfolio",
+        live: "https://www.narayanaryal.com/",
+      },
+    
+      {
+        title: "Tesla UI Clone",
         description: "Design & Development",
         imgUrl: tesla,
         github: "https://github.com/Emprcode/Tesla-Clone",
         live: "https://tesla-clone-emprcode.vercel.app/",
       },
       {
-        title: "The Boring Company Clone",
+        title: "The Boring Company UI Clone",
         description: "Design & Development",
         imgUrl: boringCompany,
         github: "https://github.com/Emprcode/Boring-Company-Clone",

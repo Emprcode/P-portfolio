@@ -13,6 +13,7 @@ import portfolio from "../../assets/portfolio.png";
 import boringCompany from "../../assets/boring-company.png";
 import tesla from "../../assets/tesla.png";
 import uber from "../../assets/uber.png";
+import carhub from "../../assets/carhub.png";
 
 export const Everything = () => {
   const projects = [
@@ -29,6 +30,13 @@ export const Everything = () => {
       imgUrl: eCom,
       github: "https://github.com/Emprcode/E-commerce-store-client",
       live: "http://my-ecom-store.s3-website-us-east-1.amazonaws.com/",
+    },
+    {
+      title: "Car-Hub",
+      description: "Your portal to elite automobiles, where you discover and admire world-class cars and their stories.",
+      imgUrl: carhub,
+      github: "https://github.com/Emprcode/car-hub-nextjs",
+      live: "https://carhub-lilac.vercel.app/",
     },
     {
       title: "Portfolio",
@@ -59,14 +67,14 @@ export const Everything = () => {
       live: "https://dark-puce-pangolin-fez.cyclic.app",
     },
     {
-      title: "Tesla Clone",
+      title: "Tesla UI Clone",
       description: "Develop and Deployment",
       imgUrl: tesla,
       github: "https://github.com/Emprcode/Tesla-Clone",
       live: "https://tesla-clone-rho-three.vercel.app/",
     },
     {
-      title: "The Boring Company Clone",
+      title: "The Boring Company UI Clone",
       description: "Develop and Deployment",
       imgUrl: boringCompany,
       github: "https://github.com/Emprcode/Boring-Company-Clone",

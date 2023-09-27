@@ -2,7 +2,7 @@ import React from 'react'
 import "animate.css";
 import { Row, Tab } from 'react-bootstrap';
 import { ProjectCard } from '../ProjectCard';
-import portfolio from "../../assets/portfolio.png";
+import nextblog from "../../assets/nextblog.png";
 // import calc from "../../assets/calc.png";
 import contact from "../../assets/contact-list.png";
 import movielist from "../../assets/movielist.png";
@@ -29,11 +29,11 @@ export const Websites = () => {
         live: "https://uber-clone-five-roan.vercel.app/",
       },
       {
-        title: "Portfolio",
-        description: "Develop and Deployment",
-        imgUrl: portfolio,
-        github: "https://github.com/Emprcode/P-portfolio",
-        live: "https://www.narayanaryal.com/",
+        title: "Emprocode Blog",
+        description: "Built and deployed a modern blog using Next.js, Typescript, Tailwind.css, and Sanity.io",
+        imgUrl: nextblog,
+        github: "https://github.com/Emprcode/nextjs-blog-app",
+        live: "https://nextjs-blog-app-khaki.vercel.app/",
       },
     
       {

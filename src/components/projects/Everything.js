@@ -9,7 +9,7 @@ import library from "../../assets/librarymgmt.png";
 import finance from "../../assets/finance.png";
 import movielist from "../../assets/movielist.png";
 import notodolist from "../../assets/notodolist.png";
-import portfolio from "../../assets/portfolio.png";
+import nextblog from "../../assets/nextblog.png";
 import boringCompany from "../../assets/boring-company.png";
 import tesla from "../../assets/tesla.png";
 import uber from "../../assets/uber.png";
@@ -39,18 +39,18 @@ export const Everything = () => {
       live: "https://carhub-lilac.vercel.app/",
     },
     {
-      title: "Portfolio",
-      description: "Develop and Deployment",
-      imgUrl: portfolio,
-      github: "https://github.com/Emprcode/P-portfolio",
-      live: "https://www.narayanaryal.com/",
-    },
-    {
       title: "Uber UI Clone",
       description: "Develop and Deployment",
       imgUrl: uber,
       github: "https://github.com/Emprcode/Uber-clone",
       live: "https://uber-clone-five-roan.vercel.app/",
+    },
+    {
+      title: "Emprocode Blog",
+      description: "Built and deployed a modern blog using Next.js, Typescript, Tailwind.css, and Sanity.io",
+      imgUrl: nextblog,
+      github: "https://github.com/Emprcode/nextjs-blog-app",
+      live: "https://nextjs-blog-app-khaki.vercel.app/",
     },
     {
       title: "Library Management System",

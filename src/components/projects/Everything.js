@@ -49,14 +49,7 @@ export const Everything = () => {
       github: "https://github.com/Emprcode/Uber-clone",
       live: "https://uberclone-xi.vercel.app/",
     },
-    {
-      title: "Emprocode Blog",
-      description:
-        "Built and deployed a modern blog using Next.js, Typescript, Tailwind.css, and Sanity.io",
-      imgUrl: nextblog,
-      github: "https://github.com/Emprcode/nextjs-blog-app",
-      live: "https://nextjs-blog-app-khaki.vercel.app/",
-    },
+
     {
       title: "Library Management System",
       description:
@@ -71,7 +64,15 @@ export const Everything = () => {
         "help individuals or businesses manage expenses, income, budgets, and investments efficiently, providing insights into financial health.",
       imgUrl: finance,
       github: "https://github.com/Emprcode/ft-v2-api.git",
-      live: "https://dark-puce-pangolin-fez.cyclic.app",
+      live: "https://h-tack.vercel.app/",
+    },
+    {
+      title: "Emprocode Blog",
+      description:
+        "Built and deployed a modern blog using Next.js, Typescript, Tailwind.css, and Sanity.io",
+      imgUrl: nextblog,
+      github: "https://github.com/Emprcode/nextjs-blog-app",
+      live: "https://nextjs-blog-app-khaki.vercel.app/",
     },
     {
       title: "RevGym",

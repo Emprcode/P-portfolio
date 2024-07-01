@@ -41,7 +41,7 @@ export const FullStacks = () => {
         "help individuals or businesses manage expenses, income, budgets, and investments efficiently, providing insights into financial health.",
       imgUrl: finance,
       github: "https://github.com/Emprcode/ft-v2-api.git",
-      live: "https://dark-puce-pangolin-fez.cyclic.app",
+      live: "https://h-tack.vercel.app/",
     },
     {
       title: "Not-To-Do List App",

@@ -24,7 +24,7 @@ export const Everything = () => {
         "full stack Content Management System for Admin of the aceXsports",
       imgUrl: adminCms,
       github: "https://github.com/Emprcode/E-commerce_api_admin",
-      live: "https://github.com/Emprcode/E-commerce-adminCMS-client",
+      live: "https://admincms-acexsports.vercel.app/",
     },
     {
       title: "aceXsports",
@@ -56,15 +56,15 @@ export const Everything = () => {
         "automates library operations, and retrieval, making it easier for users to find and access resources. ",
       imgUrl: library,
       github: "https://github.com/Emprcode/client-Library-management",
-      live: "https://library-mgmt-client.vercel.app/",
+      live: "https://user-librarymgmt.vercel.app/",
     },
     {
-      title: "Finance Tracker App",
+      title: "BudgetBuddy",
       description:
         "help individuals or businesses manage expenses, income, budgets, and investments efficiently, providing insights into financial health.",
       imgUrl: finance,
       github: "https://github.com/Emprcode/ft-v2-api.git",
-      live: "https://h-tack.vercel.app/",
+      live: "https://budgetbuddyfinance.vercel.app/",
     },
     {
       title: "Emprocode Blog",
@@ -72,14 +72,14 @@ export const Everything = () => {
         "Built and deployed a modern blog using Next.js, Typescript, Tailwind.css, and Sanity.io",
       imgUrl: nextblog,
       github: "https://github.com/Emprcode/nextjs-blog-app",
-      live: "https://nextjs-blog-app-khaki.vercel.app/",
+      live: "https://blog-narayanaryal.vercel.app/",
     },
     {
       title: "RevGym",
       description: "Develop and Deployment",
       imgUrl: revgym,
       github: "https://github.com/Emprcode/gym-app-typescript",
-      live: "https://gym-app-typescript-ruby.vercel.app/",
+      live: "https://revgym.vercel.app/",
     },
     {
       title: "Tesla UI Clone",
@@ -118,20 +118,6 @@ export const Everything = () => {
       github: " https://github.com/Emprcode/contact-list",
       live: "https://emprcode.github.io/contact-list/",
     },
-    // {
-    //   title: "Counter App",
-    //   description: "Design & Development",
-    //   imgUrl: counter,
-    //   github: "https://github.com/Emprcode/counter-js-project",
-    //   live: "https://counter-js-project-drab.vercel.app/",
-    // },
-    // {
-    //   title: "The prank calculator",
-    //   description: "Design & Development",
-    //   imgUrl: calc,
-    //   github: " https://github.com/Emprcode/Prank-calculator-app",
-    //   live: "https://emprcode.github.io/Prank-calculator-app/",
-    // },
   ];
   return (
     <Tab.Pane eventKey="first">

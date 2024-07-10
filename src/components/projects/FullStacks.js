@@ -16,7 +16,7 @@ export const FullStacks = () => {
         "full stack Content Management System for Admin of the aceXsports",
       imgUrl: adminCms,
       github: "https://github.com/Emprcode/E-commerce_api_admin",
-      live: "https://github.com/Emprcode/E-commerce-adminCMS-client",
+      live: "https://admincms-acexsports.vercel.app/",
     },
     {
       title: "aceXsports",
@@ -33,15 +33,15 @@ export const FullStacks = () => {
         "automates library operations, and retrieval, making it easier for users to find and access resources. ",
       imgUrl: library,
       github: "https://github.com/Emprcode/LM_client_v2",
-      live: "https://library-mgmt-client.vercel.app/",
+      live: "https://user-librarymgmt.vercel.app/",
     },
     {
-      title: "Finance Tracker App",
+      title: "BudgetBuddy",
       description:
         "help individuals or businesses manage expenses, income, budgets, and investments efficiently, providing insights into financial health.",
       imgUrl: finance,
       github: "https://github.com/Emprcode/ft-v2-api.git",
-      live: "https://h-tack.vercel.app/",
+      live: "https://budgetbuddyfinance.vercel.app/",
     },
     {
       title: "Not-To-Do List App",

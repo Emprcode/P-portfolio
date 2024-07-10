@@ -35,7 +35,7 @@ export const Websites = () => {
         "Built and deployed a modern blog using Next.js, Typescript, Tailwind.css, and Sanity.io",
       imgUrl: nextblog,
       github: "https://github.com/Emprcode/nextjs-blog-app",
-      live: "https://nextjs-blog-app-khaki.vercel.app/",
+      live: "https://blog-narayanaryal.vercel.app/",
     },
 
     {

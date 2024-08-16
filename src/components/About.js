@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, Row } from "react-bootstrap";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 AOS.init();
 
@@ -18,11 +18,11 @@ export const About = () => {
           I am a{" "}
           <span className="fw-bold text-primary">
             {" "}
-            full stack MERN developer{" "}
+            Full Stack Software Engineer{" "}
           </span>{" "}
-          based in Sydney, Australia. It's nice to see you here. I enjoy
-          developing web applications and websites and love to work on various
-          projects.
+          based in Sydney, Australia. I enjoy building robust web applications
+          and contributing to the full software development life cycle from
+          conception to deployment.
         </h6>
         {/* <div className="p-3 ">
           <a href={resume} download={true}>
@@ -35,11 +35,16 @@ export const About = () => {
         </div> */}
       </Row>
 
-      <Row className="justify-content-center gap-5 flex-sm-wrap mt-5 p-3" data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
+      <Row
+        className="justify-content-center gap-5 flex-sm-wrap mt-5 p-3"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="top-center"
+      >
         <Card
           style={{ width: "17rem" }}
-          className="p-4 d-flex justify-content-center align-items-center ">
+          className="p-4 d-flex justify-content-center align-items-center "
+        >
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
             <i className="fa-solid fa-code"></i>
@@ -47,18 +52,19 @@ export const About = () => {
 
           <Card.Body className="card-body">
             <Card.Text className="h6">
-              I love coding things and enjoy bringing ideas to life. Personally,
-              I use JavaScript and its framework to create beautiful web
+              I love coding things and enjoy bringing ideas to life. I use
+              JavaScript & TypeScript and its framework to create beautiful web
               applications from the scratch.
             </Card.Text>
           </Card.Body>
         </Card>
         <Card
           style={{ width: "17rem" }}
-          className=" card p-4 d-flex justify-content-center align-items-center">
+          className=" card p-4 d-flex justify-content-center align-items-center"
+        >
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
-            <i class="fa-solid fa-comments"></i>
+            <i className="fa-solid fa-comments"></i>
           </span>
 
           <Card.Body className="card-body">
@@ -70,10 +76,11 @@ export const About = () => {
         </Card>
         <Card
           style={{ width: "17rem" }}
-          className="p-4 d-flex justify-content-center align-items-center" >
+          className="p-4 d-flex justify-content-center align-items-center"
+        >
           <span className="p-2 mb-2 h1 about-icon">
             {" "}
-            <i class="fa-solid fa-face-smile"></i>
+            <i className="fa-solid fa-face-smile"></i>
           </span>
           <Card.Body className="card-body">
             <Card.Text className="h6">

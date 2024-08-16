@@ -3,7 +3,7 @@ import "animate.css";
 import { Row, Tab } from "react-bootstrap";
 import { ProjectCard } from "../ProjectCard";
 import adminCms from "../../assets/adminCms.png";
-import eCom from "../../assets/eCom.png";
+import acexsport from "../../assets/acexsport.png";
 import library from "../../assets/librarymgmt.png";
 import finance from "../../assets/finance.png";
 import notodolist from "../../assets/notodolist.png";
@@ -21,10 +21,10 @@ export const FullStacks = () => {
     {
       title: "aceXsports",
       description:
-        "full stack e-commerce project, space for wide range of sports and street wares.",
-      imgUrl: eCom,
-      github: "https://github.com/Emprcode/E-commerce_api_admin",
-      live: "http://ace-x-sports.s3-website-us-east-1.amazonaws.com/",
+        "full stack e-commerce project, space for wide range of football kits.",
+      imgUrl: acexsport,
+      github: "https://github.com/Emprcode/E-commerce-store-client",
+      live: "https://acexsports.vercel.app/",
     },
 
     {

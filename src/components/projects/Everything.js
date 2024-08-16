@@ -2,9 +2,8 @@ import React from "react";
 import "animate.css";
 import { Row, Tab } from "react-bootstrap";
 import { ProjectCard } from "../ProjectCard";
-import eCom from "../../assets/eCom.png";
+import acexsport from "../../assets/acexsport.png";
 import adminCms from "../../assets/adminCms.png";
-import contact from "../../assets/contact-list.png";
 import library from "../../assets/librarymgmt.png";
 import finance from "../../assets/finance.png";
 import movielist from "../../assets/movielist.png";
@@ -30,9 +29,9 @@ export const Everything = () => {
       title: "aceXsports",
       description:
         "full stack e-commerce project, space for wide range of sports and street wares.",
-      imgUrl: eCom,
+      imgUrl: acexsport,
       github: "https://github.com/Emprcode/E-commerce-store-client",
-      live: "http://ace-x-sports.s3-website-us-east-1.amazonaws.com/",
+      live: "https://acexsports.vercel.app/",
     },
     {
       title: "Car-Hub",
@@ -110,13 +109,6 @@ export const Everything = () => {
       imgUrl: movielist,
       github: " https://github.com/Emprcode/movie-list-app",
       live: "https://react-movie-list-kappa.vercel.app/",
-    },
-    {
-      title: "Contact List App",
-      description: "Design & Development",
-      imgUrl: contact,
-      github: " https://github.com/Emprcode/contact-list",
-      live: "https://emprcode.github.io/contact-list/",
     },
   ];
   return (

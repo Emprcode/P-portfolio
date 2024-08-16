@@ -30,16 +30,24 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 9rem;
+  gap: 10rem;
+}
+
+.icons:last-child {
+  gap: 10rem;
 }
 @media screen and (max-width: 600px) {
   .icons {
     gap: 3rem;
   }
+  .icons:last-child {
+    gap: 4rem;
+  }
   .icons div i {
     font-size: 3rem;
   }
 }
+
 .icons div {
   margin-bottom: 3rem;
 
@@ -214,12 +222,12 @@
 }
 
 .card {
-  box-shadow: 0px 0px 5px rgba(148, 173, 213, 0.427);
+  box-shadow: 0px 0px 5px rgba(86, 96, 133, 0.546);
   transition: box-shadow 0.3s ease-in-out;
 }
 
 .card:hover {
-  box-shadow: 0px 0px 20px rgba(145, 158, 223, 0.53);
+  box-shadow: 0px 0px 20px rgba(62, 67, 93, 0.658);
 }
 
 .card:hover::before {

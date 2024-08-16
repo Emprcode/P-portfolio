@@ -14,7 +14,7 @@ export const Hero = () => {
               500,
               "Full Stack Developer",
               500,
-              "MERN Developer",
+              "DevOps Engineer",
               500,
             ]}
             style={{ fontSize: "2em", fontWeight: "bold" }}

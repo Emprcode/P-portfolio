@@ -1,4 +1,4 @@
-import {  Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -20,10 +20,11 @@ export const Education = () => {
           date="August 2022 - March 2023"
           iconStyle={{ background: "#5BE9B9", color: "#000000" }}
           icon={
-            <span className="h1 p-2 d-flex align-items-center justify-content-center">
-              <i class="fa-solid fa-code-compare"></i>{" "}
+            <span className="h2 p-2 d-flex align-items-center justify-content-center">
+              <i className="fa-solid fa-code-compare"></i>{" "}
             </span>
-          }>
+          }
+        >
           <h3 className="vertical-timeline-element-title fw-bold">
             Dented Code Academy
           </h3>
@@ -43,11 +44,12 @@ export const Education = () => {
           date="2019 - 2022"
           iconStyle={{ background: "#5BE9B9", color: "#fff" }}
           icon={
-            <span className="h1 p-3 d-flex align-items-center justify-content-center">
+            <span className="h2 p-2 d-flex align-items-center justify-content-center text-center">
               <i className="fa-solid fa-user-graduate text-dark"></i>{" "}
             </span>
-          }>
-          <h3 className="vertical-timeline-element-title  fw-bold">
+          }
+        >
+          <h3 className="vertical-timeline-element-title fw-bold">
             Federation University Australia
           </h3>
           <h6 className="vertical-timeline-element-subtitle">Australia</h6>
@@ -56,7 +58,7 @@ export const Education = () => {
               {" "}
               Bachelor of Information Technology (Software Development)
             </h6>
-            <p>Successfully completed the course with 5.620 GPA.</p>
+            <p>Successfully completed the course with 5.620/7 GPA.</p>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -64,10 +66,11 @@ export const Education = () => {
           date="2017 - 2019"
           iconStyle={{ background: "#5BE9B9", color: "#fff" }}
           icon={
-            <span className="h1 p-2 d-flex align-items-center justify-content-center">
-              <i class="fa-solid fa-building-columns text-dark"></i>
+            <span className="h2 p-2 d-flex align-items-center justify-content-center">
+              <i className="fa-solid fa-building-columns text-dark"></i>
             </span>
-          }>
+          }
+        >
           <h3 className="vertical-timeline-element-title  fw-bold">
             Oxford Secondary School
           </h3>
@@ -77,7 +80,7 @@ export const Education = () => {
               {" "}
               Secondary level education - Major Science
             </h6>
-            <p>CGPA: 3.50</p>
+            <p>CGPA: 3.90/4</p>
           </div>
         </VerticalTimelineElement>
       </VerticalTimeline>

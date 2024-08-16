@@ -3,13 +3,10 @@ import "animate.css";
 import { Row, Tab } from "react-bootstrap";
 import { ProjectCard } from "../ProjectCard";
 import nextblog from "../../assets/nextblog.png";
-// import calc from "../../assets/calc.png";
-import contact from "../../assets/contact-list.png";
 import movielist from "../../assets/movielist.png";
 import boringCompany from "../../assets/boring-company.png";
 import uber from "../../assets/uber.png";
 import tesla from "../../assets/tesla.png";
-// import counter from '../../assets/counter.png'
 import carhub from "../../assets/carhub.png";
 
 export const Websites = () => {
@@ -60,13 +57,13 @@ export const Websites = () => {
       github: " https://github.com/Emprcode/movie-list-app",
       live: "https://react-movie-list-kappa.vercel.app/",
     },
-    {
-      title: "Contact List App",
-      description: "Design & Development",
-      imgUrl: contact,
-      github: " https://github.com/Emprcode/contact-list",
-      live: "https://emprcode.github.io/contact-list/",
-    },
+    // {
+    //   title: "Contact List App",
+    //   description: "Design & Development",
+    //   imgUrl: contact,
+    //   github: " https://github.com/Emprcode/contact-list",
+    //   live: "https://emprcode.github.io/contact-list/",
+    // },
 
     // {
     //   title: "The prank calculator",
